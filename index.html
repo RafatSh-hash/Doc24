@@ -8,16 +8,11 @@
     <link rel="stylesheet" href="./style.css">
     <!-- fontAwesome -->
     <script src="https://kit.fontawesome.com/7bbc2be6b3.js" crossorigin="anonymous"></script>
-    <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- DaisyUI -->
+
+    <!-- Tailwind & DaisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.23/dist/css/uikit.min.css" />
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.23/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.23/dist/js/uikit-icons.min.js"></script>
+
     <!-- GoogleFont -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +26,7 @@
 <body>
     <!-- NavbarSection -->
     <nav
-        class="lg:bg-transparent md:bg-transparent sm:bg-white max-[425px]:bg-white fixed top-0 flex justify-between text-black lg:w-full px-10 md:w-11/12 sm:w-full max-[425px]:w-full  mx-auto py-3 items-center">
+        class="lg:bg-transparent md:bg-transparent sm:bg-white max-[425px]:bg-white fixed top-0 flex justify-between text-black lg:w-full px-10 md:w-11/12 sm:w-full max-[425px]:w-full  mx-auto py-3 items-center z-10">
         <div>
             <h1 class="text-2xl">Doc24</h1>
         </div>
@@ -53,7 +48,7 @@
     </nav>
     <!-- BannerSection -->
     <div id="banner"
-        class="bg-transparent flex lg:flex-row md:flex-row sm:flex-col max-[425px]:flex-col items-center justify-center lg:px-56 md:px-14 pt-32 ">
+        class="bg-transparent flex lg:flex-row md:flex-row sm:flex-col max-[425px]:flex-col items-center justify-center lg:px-56 md:px-14 pt-32 pb-20">
 
         <div
             class="lg:w-[50%] md:w-[50%] sm:w-full max-[425px]:w-full lg:items-start md:items-start sm:items-center max-[425px]:items-center">
@@ -106,6 +101,39 @@
             </div>
         </div>
     </div>
+    <div class="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 max-[425px]:grid-cols-1 bg-pink-300">
+        <div class="flex items-center justify-center ">
+            <h1 class="text-2xl font-semibold">Treatment</h1>
+            <div class="w-14 h-14">
+                <img src="./Asset/Images/icons/star.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <h1 class="text-2xl font-semibold">Petient</h1>
+            <div class="w-14 h-14">
+                <img src="./Asset/Images/icons/star.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <h1 class="text-2xl font-semibold">Hospital</h1>
+            <div class="w-14 h-14">
+                <img src="./Asset/Images/icons/star.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <h1 class="text-2xl font-semibold">Medical</h1>
+            <div class="w-14 h-14">
+                <img src="./Asset/Images/icons/star.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <h1 class="text-2xl font-semibold">Doctors</h1>
+            <div class="w-14 h-14">
+                <img src="./Asset/Images/icons/star.png" alt="">
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
