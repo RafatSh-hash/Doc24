@@ -278,8 +278,12 @@
                         <img class="rounded-full h-full w-full" src="./Asset/Images/serviceB.jpg" alt="">
 
                     </div>
-                    <div class="border- border-white my-3 rounded-full h-[110px] md:h-[90px] lg:h-[150px] bg-[#9333ea]">
-                        <p>99%</p>
+                    <div
+                        class="border-4 text-center text-white  border-white my-3 py-5 md:py-3 lg:py-10 rounded-full h-[110px] md:h-[90px] lg:h-[150px] bg-[#9333ea]">
+                        <div class="w-[90%] mx-auto">
+                            <h5 id="percentage" class="text-3xl md:text-2xl lg:text-3xl text-white font-bold">0%</h5>
+                        </div>
+                        <p class="text-xs">Positive Rating</p>
                     </div>
 
                 </div>
@@ -291,7 +295,22 @@
 
     <script src=" ./UiKit/uikit.min.js">
     </script>
+    <script>
+        // JavaScript code for counting the percentage and updating the content
+        const percentageElement = document.getElementById("percentage");
+        const targetPercentage = 99;
+        let currentPercentage = 0;
 
+        function updatePercentage() {
+            if (currentPercentage < targetPercentage) {
+                currentPercentage++;
+                percentageElement.textContent = `${currentPercentage}%`;
+                setTimeout(updatePercentage, 20); // Adjust the duration (in ms) for the animation speed
+            }
+        }
+
+        updatePercentage();
+    </script>
 </body>
 
 </html>
