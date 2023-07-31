@@ -20,3 +20,10 @@ h1 h2 h3 h4 h5 h6 {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.q-doctor {
+    border: 0.3em solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(#fff, #e7bfdd, #e7bfdd);
+
+}
