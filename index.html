@@ -28,7 +28,7 @@
 <body>
     <!-- NavbarSection -->
     <nav
-        class="lg:bg-transparent md:bg-transparent sm:bg-white max-[425px]:bg-white fixed top-0 flex justify-between text-black lg:w-full px-10 md:w-11/12 sm:w-full max-[425px]:w-full  mx-auto py-3 items-center z-10">
+        class=" fixed top-0 flex justify-between text-black lg:w-full px-10 md:w-full sm:w-full max-[425px]:w-full  mx-auto py-3 items-center z-10">
         <div class="w-14 h-14 rounded-full border-2 border-[#9333ea]">
             <img class="w-full bg-[#9333ea] h-full rounded-full" src="./Asset/Images/logo.png" alt="">
         </div>
@@ -376,6 +376,116 @@
         </div>
     </div>
 
+    <!-- NewsSection -->
+
+    <div class="mt-20 w-8/12 mx-auto">
+        <div
+            class="lg:w-[20%] md:w-[40%] sm:w-[50%] max-[425px]:w-[50%] lg:mx-auto md:mx-auto sm:mx-auto max-[425px]:mx-auto bg-white shadow-xl rounded-full text-purple-600 flex items-center mb-5">
+
+            <p class="font-semibold mx-auto px-3 py-2">Our Post from Blog</p>
+
+        </div>
+        <h2 class="lg:text-4xl md:text-3xl sm:text-2xl max-[425px]:text-2xl font-semibold text-center my-10">
+            Latest News & Article</h2>
+
+        <div class=" lg:px-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 max-[425px]:grid-cols-1 gap-3">
+            <div class="card w-96 q-doctor hover:shadow-xl text-black transition-all duration-500 hover:scale-105">
+                <p class="mx-10 mt-2 font-semibold">COVID-19</p>
+                <figure class="px-8 pt-5">
+                    <img src="./Asset/Images/teamA.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="font-semibold text-xl ">What mutation of SAARS-Cov-2 are causing concern?</h2>
+                    <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quae aliquid
+                        veritatis optio rerum
+                        inventore autem molestias voluptates accusantium libero?</p>
+                    <p class="text-left  font-semibold">20 July,2023</p>
+                </div>
+            </div>
+            <div class="card w-96 q-doctor hover:shadow-xl text-black transition-all duration-500 hover:scale-105">
+                <p class="mx-10 mt-2 font-semibold">Psychology</p>
+                <figure class="px-8 pt-5">
+                    <img src="./Asset/Images/teamA.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="font-semibold text-xl ">How do your emotions effect your physical health?</h2>
+                    <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quae aliquid
+                        veritatis optio rerum
+                        inventore autem molestias voluptates accusantium libero?</p>
+                    <p class="text-left  font-semibold">20 July,2023</p>
+                </div>
+            </div>
+            <div class="card w-96 q-doctor hover:shadow-xltext-black transition-all duration-500 hover:scale-105">
+                <p class="mx-10 mt-2 font-semibold">Dermatologist</p>
+                <figure class="px-8 pt-5">
+                    <img src="./Asset/Images/teamA.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="font-semibold text-xl ">Using Flow Cytometry in Engineering Detection?</h2>
+                    <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quae aliquid
+                        veritatis optio rerum
+                        inventore autem molestias voluptates accusantium libero?</p>
+                    <p class="text-left  font-semibold">20 July,2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- appointmentSection -->
+
+    <div>
+        <div id="bannerC"
+            class="w-full  p-4 rounded-2xl mt-20 mx-auto flex lg:flex-row md:flex-row sm:flex-col max-[425px]:flex-col">
+            <div class="lg:w-[40%] md:w-[50%] sm:w-full max-[425px]:w-full p-10 ">
+                <p
+                    class="font-semibold text-center mx-auto md:mx-auto lg:mx-0 px-3 bg-white w-[95%] md:w-[70%] lg:w-1/2 rounded-full text-black py-4">
+                    Our Post
+                    from Blog
+                </p>
+                <h2
+                    class="lg:text-5xl md:text-3xl sm:text-2xl text-center md:text-center lg:text-left text-white max-[425px]:text-2xl font-semibold my-10">
+                    Latest News & Article</h2>
+            </div>
+            <div class="lg:w-[60%] md:w-[50%] sm:w-full max-[425px]:w-full p-5">
+                <input type="text" placeholder="Full Name"
+                    class="input input-bordered input-secondary w-full bg-white max-w-xs my-5 mx-5" /><input type="text"
+                    placeholder="Email" class="input input-bordered input-primary bg-white w-full max-w-xs" /> <br>
+                <input type="phone" placeholder="Phone Number"
+                    class="input input-bordered input-secondary my w-full bg-white  max-w-xl my-2 mx-5" />
+                <div class="my-5 mx-5">
+                    <select class="select select-bordered bg-white w-full max-w-xs">
+                        <option disabled selected>Age</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+
+                    </select>
+                    <select class="select select-bordered bg-white w-full max-w-xs">
+                        <option disabled selected>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                </select> <select class="select select-bordered bg-white my-2 mx-5 w-full max-w-xl">
+                    <option disabled selected>Choose Department</option>
+                    <option>Neurology</option>
+                    <option>Allergy</option>
+                    <option>Dermatology</option>
+                    <option>Gastrology</option>
+                    <option>Dentistry</option>
+                    <option>HIV or STD</option>
+                    <option>Otolaryngology</option>
+
+                </select><br>
+                <button
+                    class="px-8 mx-5 my-5 py-4 bg-purple-800 rounded-lg border-2 border-white text-white transition-all duration-500 hover:scale-105 hover:shadow-2xl">Book
+                    Appointment</button>
+            </div>
+        </div>
+
+    </div>
 
     <script src=" ./UiKit/uikit.min.js">
     </script>

@@ -13,8 +13,20 @@ h1 h2 h3 h4 h5 h6 {
     font-family: 'Poppins', sans-serif !important;
 }
 
+nav {
+    background-color: #ffffff79;
+}
+
 #banner {
     background-image: url('./Asset/Images/Banner1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bannerC {
+    background-image: url('./Asset/Images/bannerC.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
