@@ -295,22 +295,7 @@
 
     <script src=" ./UiKit/uikit.min.js">
     </script>
-    <script>
-        // JavaScript code for counting the percentage and updating the content
-        const percentageElement = document.getElementById("percentage");
-        const targetPercentage = 99;
-        let currentPercentage = 0;
-
-        function updatePercentage() {
-            if (currentPercentage < targetPercentage) {
-                currentPercentage++;
-                percentageElement.textContent = `${currentPercentage}%`;
-                setTimeout(updatePercentage, 20); // Adjust the duration (in ms) for the animation speed
-            }
-        }
-
-        updatePercentage();
-    </script>
+    <script src="./page.js"></script>
 </body>
 
 </html>
