@@ -39,3 +39,12 @@ nav {
     border-image-source: linear-gradient(#fff, #e7bfdd, #e7bfdd);
 
 }
+
+#fBanner {
+    background-image: url('./Asset/Images/fBanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
